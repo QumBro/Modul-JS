@@ -1,0 +1,142 @@
+body {
+  color: #F4F9FF;
+  font-size: 14px;
+  font-weight: 600;
+  min-height: 100vh;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#d16ba5), color-stop(#c777b9), color-stop(#ba83ca), color-stop(#aa8fd8), color-stop(#9a9ae1), color-stop(#8aa7ec), color-stop(#79b3f4), color-stop(#69bff8), color-stop(#52cffe), color-stop(#41dfff), color-stop(#46eefa), to(#5ffbf1));
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+body a, body a:hover {
+  color: #F4F9FF;
+}
+
+header .navbar-brand {
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: 2px 3px 0px #898999;
+  line-height: 1.2;
+}
+
+header .navbar-nav {
+  font-size: 1.5rem;
+}
+
+header .form-control {
+  background-color: #F4F9FF;
+  border: none;
+}
+
+header .btn-success {
+  font-weight: 600;
+  background-color: #86A8E7;
+  border: none;
+}
+
+header .btn-success:hover {
+  color: #86A8E7;
+  background-color: #F4F9FF;
+  border: none;
+}
+
+main #drop-nav {
+  margin-top: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main #drop-nav .dropdown {
+  margin: 0 1rem 0 0;
+}
+
+main #drop-nav .btn {
+  border: none;
+  background-color: #D16BA5;
+  -webkit-box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.2);
+}
+
+main #drop-nav .dropdown-menu {
+  background-color: #F4F9FF;
+  border: none;
+  -webkit-box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.2);
+}
+
+main .movie-card {
+  color: #D16BA5;
+  margin: 2rem 0;
+}
+
+main .movie-card #movie-grid {
+  margin-bottom: 3rem;
+}
+
+main .movie-card #pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .movie-card .card-img-top {
+  width: 100%;
+}
+
+main .movie-card .card {
+  color: #D16BA5;
+  background-color: #F4F9FF;
+  border: none;
+  -webkit-box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.2);
+}
+
+main .movie-card .card-body {
+  padding: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main .movie-card .card-body i {
+  color: #D16BA5;
+  font-size: 1.2rem;
+}
+
+main .movie-card .card-title {
+  font-size: 1rem;
+  margin: 0;
+}
+
+main .modal p {
+  color: black;
+}
+
+main .modal p span {
+  color: #D16BA5;
+}
+
+main .modal .overview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: justify;
+}
+/*# sourceMappingURL=index.css.map */
